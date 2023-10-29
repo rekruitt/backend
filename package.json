@@ -25,6 +25,6 @@
     "nodemon": "^3.0.1"
   },
   "devDependencies": {
-    "mongoose": "^7.6.3"
+    "mongoose": "^14.20.1"
   }
 }
