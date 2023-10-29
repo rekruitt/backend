@@ -4,7 +4,8 @@
   "description": "app for recruitment",
   "main": "index.js",
   "engines": {
-    "node": ">=14.20.1"},
+    "node": ">=14.20.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js",
@@ -17,6 +18,7 @@
   "author": "linus",
   "license": "ISC",
   "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
     "bcrypt": "^5.1.1",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
